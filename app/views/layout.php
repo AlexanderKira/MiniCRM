@@ -34,6 +34,12 @@
                         </a>
                     </li>
                     <li>
+                        <a href="index.php?page=pages" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16"><use xlink:href="index.php?page=pages"></use></svg>
+                        Pages
+                        </a>
+                    </li>
+                    <li>
                         <a href="index.php?page=register" class="nav-link text-white">
                         <svg class="bi me-2" width="16" height="16"><use xlink:href="index.php?page=register"></use></svg>
                         Register
@@ -58,7 +64,7 @@
                     <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
                     <strong>mdo</strong>
                 </a>
-                <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1" style="">
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
                     <li><a class="dropdown-item" href="#">New project...</a></li>
                     <li><a class="dropdown-item" href="#">Settings</a></li>
                     <li><a class="dropdown-item" href="#">Profile</a></li>

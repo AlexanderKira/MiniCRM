@@ -65,9 +65,9 @@ class AuthController{
     
 
     public function logout(){
-        session_start();
-        session_unset();
-        session_destroy();
+        session_start(); //создаёт сессию
+        session_unset(); //удаляет все переменые сессии 
+        session_destroy();//удаляет все данные внутри сессии 
         header('Location: index.php');
     }
 
