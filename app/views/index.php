@@ -1,7 +1,7 @@
 <?php
-if($_SERVER['REQUEST_URI'] == '/crm_for_telegram/index.php'){
-    header('Location: /crm_for_telegram/');
-    exit();
+ if($_SERVER['REQUEST_URI'] == '/minicrm/index.php'){
+     header('Location: /minicrm/');
+     exit();
 }
 
 $title = 'Home page';
